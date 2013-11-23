@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c0746820-046d-480e-a593-23391b8c41be" name="Alpheratz@ALPHERATZ 2013-11-23 13:38:20" runUser="ALPHERATZ\Alpheratz" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3bb9b01f-53d9-4978-a31b-c73d7a057c86">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Alpheratz_ALPHERATZ 2013-11-23 13_38_20">
+      <DeploymentItem filename="C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\tp_lab_4\bin\Debug\tp_lab_4.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-23T13:38:20.9076780+03:00" queuing="2013-11-23T13:38:21.0177474+03:00" start="2013-11-23T13:38:21.0347583+03:00" finish="2013-11-23T13:38:21.7152096+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="StartMenuTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="e20a44bb-c93d-690c-de0c-bcb838f35d45">
+      <Execution id="82b5f6be-8dfb-499c-a4cf-15308c74ec77" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.ATMTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StartMenuTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e20a44bb-c93d-690c-de0c-bcb838f35d45" executionId="82b5f6be-8dfb-499c-a4cf-15308c74ec77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="82b5f6be-8dfb-499c-a4cf-15308c74ec77" testId="e20a44bb-c93d-690c-de0c-bcb838f35d45" testName="StartMenuTest" computerName="ALPHERATZ" duration="00:00:00.1360349" startTime="2013-11-23T13:38:21.0437647+03:00" endTime="2013-11-23T13:38:21.6841922+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82b5f6be-8dfb-499c-a4cf-15308c74ec77">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Fail failed. Verification failed: method has thrown an exception</Message>
+          <StackTrace>   в TestProject.ATMTest.StartMenuTest() в C:\Users\Томас\Documents\Visual Studio 2010\Projects\tp_lab_4\TestProject\ATMTest.cs:строка 91
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

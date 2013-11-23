@@ -1,0 +1,5 @@
+C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\tp_lab_4\bin\Debug\tp_lab_4.exe
+C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\tp_lab_4\bin\Debug\tp_lab_4.pdb
+C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\tp_lab_4\obj\x86\Debug\tp_lab_4.exe
+C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\tp_lab_4\obj\x86\Debug\tp_lab_4.pdb
+C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\tp_lab_4\obj\x86\Debug\tp_lab_4.csprojResolveAssemblyReference.cache

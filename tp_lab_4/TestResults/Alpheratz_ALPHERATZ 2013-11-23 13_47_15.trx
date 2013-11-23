@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1be3ea09-7526-4c24-9d40-f46a77327905" name="Alpheratz@ALPHERATZ 2013-11-23 13:47:15" runUser="ALPHERATZ\Alpheratz" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3bb9b01f-53d9-4978-a31b-c73d7a057c86">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Alpheratz_ALPHERATZ 2013-11-23 13_47_15">
+      <DeploymentItem filename="C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\tp_lab_4\bin\Debug\tp_lab_4.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-23T13:47:15.5705674+03:00" queuing="2013-11-23T13:47:17.8891044+03:00" start="2013-11-23T13:47:18.0492105+03:00" finish="2013-11-23T13:47:21.0752159+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="22" executed="22" passed="22" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CheckBalanceTest2" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="40119914-768a-91ac-7f5d-1560d2c1738d">
+      <Execution id="771007d1-e988-407c-b31c-16250efa6e04" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.OverdraftAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckBalanceTest2" />
+    </UnitTest>
+    <UnitTest name="WithdrawTest1" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="3fd24b6d-d52c-d2b5-ce46-c1241d8e76f9">
+      <Execution id="1d72468e-5c3f-4ec2-b13d-8b375b59c859" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.SavingsAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WithdrawTest1" />
+    </UnitTest>
+    <UnitTest name="WithdrawTest1" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="d4283844-5544-bd64-8504-6fefb31dfb59">
+      <Execution id="0c961e27-b576-45a4-891e-6af8d8369111" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.TimedMaturityAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WithdrawTest1" />
+    </UnitTest>
+    <UnitTest name="CheckBalanceTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="d85feacb-cbc1-a5b1-ab33-968b7a817475">
+      <Execution id="1c625eea-34e1-4707-92a7-483e740c2e70" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.SavingsAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckBalanceTest" />
+    </UnitTest>
+    <UnitTest name="OverdraftAccountConstructorTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="320a0aa1-ab60-c701-d8e7-d98185ffa4aa">
+      <Execution id="76ce2182-bf4a-4663-bd4a-63ddd90940a7" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.OverdraftAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OverdraftAccountConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CheckingAccountConstructorTest1" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="48be869a-44d0-2fa1-f225-d2277c0d90de">
+      <Execution id="0963f7f6-6605-4e97-b80e-dca515c66cc4" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.CheckingAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckingAccountConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="SavingsAccountConstructorTest1" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="ccb7f12c-c2c7-e8c3-73b6-38c60b00775d">
+      <Execution id="fa8bcf45-5e7b-4748-95a0-55ab425a042a" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.SavingsAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SavingsAccountConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="CheckBalanceTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="81694bce-5837-2414-4d67-103ba283bc04">
+      <Execution id="da73c301-d4d6-4afc-8790-98fcc4fd2db0" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.CheckingAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckBalanceTest" />
+    </UnitTest>
+    <UnitTest name="SavingsAccountConstructorTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="46098c4c-d876-3463-9eb4-443e386a8459">
+      <Execution id="606532cc-3311-440b-aff0-79b32f52b24a" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.SavingsAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SavingsAccountConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ATMConstructorTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="35b435e4-93f9-bcc6-5bc2-01d55b68bc25">
+      <Execution id="d8c989a7-7ff5-4b69-abc9-79fde952b47a" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.ATMTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ATMConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CheckBalanceTest1" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="4ca3fa70-5e7f-e23a-34a4-cb2747584b7e">
+      <Execution id="39f1387a-c6c7-4798-9136-421a02aeaab8" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.OverdraftAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckBalanceTest1" />
+    </UnitTest>
+    <UnitTest name="CheckBalanceTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="bd322020-b0e7-2f58-3493-0b69867350e1">
+      <Execution id="f6c9f1a9-9383-4bd4-9aed-78cc6fbc7470" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.OverdraftAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckBalanceTest" />
+    </UnitTest>
+    <UnitTest name="CheckingAccountConstructorTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="66d9e69a-2c76-c2e0-57ff-7fef87532548">
+      <Execution id="76c48d85-8571-4fae-a3c5-5fb927d20de0" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.CheckingAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckingAccountConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CheckBalanceTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="62ceffd0-193c-77fb-b637-af8857e2a0a1">
+      <Execution id="1c0548f7-a593-4bec-bfd8-1c0bddbfe332" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.TimedMaturityAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckBalanceTest" />
+    </UnitTest>
+    <UnitTest name="TimedMaturityAccountConstructorTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="5caac51c-2826-4134-4d10-6fbbec5391ad">
+      <Execution id="98c110bc-2704-4c8a-8621-9556a3ab21b3" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.TimedMaturityAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TimedMaturityAccountConstructorTest" />
+    </UnitTest>
+    <UnitTest name="WithdrawTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="f792bb86-7bfb-5592-c7a0-d40ddb11646f">
+      <Execution id="2421cbff-f2f9-4bd9-b2b7-5f1276b1270d" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.SavingsAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WithdrawTest" />
+    </UnitTest>
+    <UnitTest name="ValidateTransactionNumberTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="3cbd2e1d-be43-0392-81c6-3479aa7cbd66">
+      <DeploymentItems>
+        <DeploymentItem filename="tp_lab_4.exe" />
+      </DeploymentItems>
+      <Execution id="4a19848b-798b-4a2c-b439-6127b999d623" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.CheckingAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidateTransactionNumberTest" />
+    </UnitTest>
+    <UnitTest name="WithdrawTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="71c933a1-f685-40ae-60a9-41d52b805e86">
+      <Execution id="a31fa73e-c9de-404a-a451-b765075e0b8c" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.TimedMaturityAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WithdrawTest" />
+    </UnitTest>
+    <UnitTest name="OverdraftAccountConstructorTest1" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="4a63e06b-2977-a606-f906-adef2f4dc4ba">
+      <Execution id="33ede660-b81c-4de8-bac2-26775c93f76c" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.OverdraftAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OverdraftAccountConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="TimedMaturityAccountConstructorTest1" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="14d93a57-b332-046c-753e-814e87dc8c06">
+      <Execution id="af14262c-19a2-44d0-819d-f23e6251d8a9" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.TimedMaturityAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TimedMaturityAccountConstructorTest1" />
+    </UnitTest>
+    <UnitTest name="CheckBalanceTest1" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="58422d96-d1ba-b6b7-9f8e-c9d7a8785268">
+      <Execution id="f70d4172-b790-492e-9ce4-d3c21e737efb" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.CheckingAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckBalanceTest1" />
+    </UnitTest>
+    <UnitTest name="ATMConstructorTest1" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="95932a76-d7d5-b9f3-72d3-0fa40f958412">
+      <Execution id="9d8f4507-b6df-49bf-8375-c61a75180af1" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.ATMTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ATMConstructorTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d85feacb-cbc1-a5b1-ab33-968b7a817475" executionId="1c625eea-34e1-4707-92a7-483e740c2e70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f792bb86-7bfb-5592-c7a0-d40ddb11646f" executionId="2421cbff-f2f9-4bd9-b2b7-5f1276b1270d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3fd24b6d-d52c-d2b5-ce46-c1241d8e76f9" executionId="1d72468e-5c3f-4ec2-b13d-8b375b59c859" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71c933a1-f685-40ae-60a9-41d52b805e86" executionId="a31fa73e-c9de-404a-a451-b765075e0b8c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4283844-5544-bd64-8504-6fefb31dfb59" executionId="0c961e27-b576-45a4-891e-6af8d8369111" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81694bce-5837-2414-4d67-103ba283bc04" executionId="da73c301-d4d6-4afc-8790-98fcc4fd2db0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58422d96-d1ba-b6b7-9f8e-c9d7a8785268" executionId="f70d4172-b790-492e-9ce4-d3c21e737efb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd322020-b0e7-2f58-3493-0b69867350e1" executionId="f6c9f1a9-9383-4bd4-9aed-78cc6fbc7470" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ca3fa70-5e7f-e23a-34a4-cb2747584b7e" executionId="39f1387a-c6c7-4798-9136-421a02aeaab8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40119914-768a-91ac-7f5d-1560d2c1738d" executionId="771007d1-e988-407c-b31c-16250efa6e04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46098c4c-d876-3463-9eb4-443e386a8459" executionId="606532cc-3311-440b-aff0-79b32f52b24a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ccb7f12c-c2c7-e8c3-73b6-38c60b00775d" executionId="fa8bcf45-5e7b-4748-95a0-55ab425a042a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62ceffd0-193c-77fb-b637-af8857e2a0a1" executionId="1c0548f7-a593-4bec-bfd8-1c0bddbfe332" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5caac51c-2826-4134-4d10-6fbbec5391ad" executionId="98c110bc-2704-4c8a-8621-9556a3ab21b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14d93a57-b332-046c-753e-814e87dc8c06" executionId="af14262c-19a2-44d0-819d-f23e6251d8a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66d9e69a-2c76-c2e0-57ff-7fef87532548" executionId="76c48d85-8571-4fae-a3c5-5fb927d20de0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48be869a-44d0-2fa1-f225-d2277c0d90de" executionId="0963f7f6-6605-4e97-b80e-dca515c66cc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cbd2e1d-be43-0392-81c6-3479aa7cbd66" executionId="4a19848b-798b-4a2c-b439-6127b999d623" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="320a0aa1-ab60-c701-d8e7-d98185ffa4aa" executionId="76ce2182-bf4a-4663-bd4a-63ddd90940a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4a63e06b-2977-a606-f906-adef2f4dc4ba" executionId="33ede660-b81c-4de8-bac2-26775c93f76c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35b435e4-93f9-bcc6-5bc2-01d55b68bc25" executionId="d8c989a7-7ff5-4b69-abc9-79fde952b47a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95932a76-d7d5-b9f3-72d3-0fa40f958412" executionId="9d8f4507-b6df-49bf-8375-c61a75180af1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1c625eea-34e1-4707-92a7-483e740c2e70" testId="d85feacb-cbc1-a5b1-ab33-968b7a817475" testName="CheckBalanceTest" computerName="ALPHERATZ" duration="00:00:00.1627883" startTime="2013-11-23T13:47:18.1692936+03:00" endTime="2013-11-23T13:47:19.9064409+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c625eea-34e1-4707-92a7-483e740c2e70">
+      <Output>
+        <StdOut>Current balance: 1728
+ Interest rate: 0.2</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2421cbff-f2f9-4bd9-b2b7-5f1276b1270d" testId="f792bb86-7bfb-5592-c7a0-d40ddb11646f" testName="WithdrawTest" computerName="ALPHERATZ" duration="00:00:00.0012272" startTime="2013-11-23T13:47:19.9364612+03:00" endTime="2013-11-23T13:47:19.9604775+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2421cbff-f2f9-4bd9-b2b7-5f1276b1270d">
+    </UnitTestResult>
+    <UnitTestResult executionId="1d72468e-5c3f-4ec2-b13d-8b375b59c859" testId="3fd24b6d-d52c-d2b5-ce46-c1241d8e76f9" testName="WithdrawTest1" computerName="ALPHERATZ" duration="00:00:00.0006825" startTime="2013-11-23T13:47:19.9864951+03:00" endTime="2013-11-23T13:47:20.0085089+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d72468e-5c3f-4ec2-b13d-8b375b59c859">
+    </UnitTestResult>
+    <UnitTestResult executionId="a31fa73e-c9de-404a-a451-b765075e0b8c" testId="71c933a1-f685-40ae-60a9-41d52b805e86" testName="WithdrawTest" computerName="ALPHERATZ" duration="00:00:00.0024217" startTime="2013-11-23T13:47:20.1526040+03:00" endTime="2013-11-23T13:47:20.1796227+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a31fa73e-c9de-404a-a451-b765075e0b8c">
+    </UnitTestResult>
+    <UnitTestResult executionId="0c961e27-b576-45a4-891e-6af8d8369111" testId="d4283844-5544-bd64-8504-6fefb31dfb59" testName="WithdrawTest1" computerName="ALPHERATZ" duration="00:00:00.0008656" startTime="2013-11-23T13:47:20.2026376+03:00" endTime="2013-11-23T13:47:20.2236515+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c961e27-b576-45a4-891e-6af8d8369111">
+    </UnitTestResult>
+    <UnitTestResult executionId="da73c301-d4d6-4afc-8790-98fcc4fd2db0" testId="81694bce-5837-2414-4d67-103ba283bc04" testName="CheckBalanceTest" computerName="ALPHERATZ" duration="00:00:00.0032775" startTime="2013-11-23T13:47:20.2436648+03:00" endTime="2013-11-23T13:47:20.2676803+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da73c301-d4d6-4afc-8790-98fcc4fd2db0">
+      <Output>
+        <StdOut>Current balance: 492.5
+ Transactions left: -3
+Fee per transaction: 7.5</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f70d4172-b790-492e-9ce4-d3c21e737efb" testId="58422d96-d1ba-b6b7-9f8e-c9d7a8785268" testName="CheckBalanceTest1" computerName="ALPHERATZ" duration="00:00:00.0008218" startTime="2013-11-23T13:47:20.2997019+03:00" endTime="2013-11-23T13:47:20.3217197+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f70d4172-b790-492e-9ce4-d3c21e737efb">
+      <Output>
+        <StdOut>Current balance: 500
+ Transactions left: 0
+Fee per transaction: 7.5</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f6c9f1a9-9383-4bd4-9aed-78cc6fbc7470" testId="bd322020-b0e7-2f58-3493-0b69867350e1" testName="CheckBalanceTest" computerName="ALPHERATZ" duration="00:00:00.0038814" startTime="2013-11-23T13:47:20.3357285+03:00" endTime="2013-11-23T13:47:20.3617430+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f6c9f1a9-9383-4bd4-9aed-78cc6fbc7470">
+      <Output>
+        <StdOut>Current balance: -1050
+ Interest rate: 0.05</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="39f1387a-c6c7-4798-9136-421a02aeaab8" testId="4ca3fa70-5e7f-e23a-34a4-cb2747584b7e" testName="CheckBalanceTest1" computerName="ALPHERATZ" duration="00:00:00.0008897" startTime="2013-11-23T13:47:20.3877603+03:00" endTime="2013-11-23T13:47:20.4137775+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39f1387a-c6c7-4798-9136-421a02aeaab8">
+      <Output>
+        <StdOut>Current balance: 0
+ Interest rate: 0.05</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="771007d1-e988-407c-b31c-16250efa6e04" testId="40119914-768a-91ac-7f5d-1560d2c1738d" testName="CheckBalanceTest2" computerName="ALPHERATZ" duration="00:00:00.0007946" startTime="2013-11-23T13:47:20.4367932+03:00" endTime="2013-11-23T13:47:20.4598080+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="771007d1-e988-407c-b31c-16250efa6e04">
+      <Output>
+        <StdOut>Current balance: 1
+ Interest rate: 0.05</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="606532cc-3311-440b-aff0-79b32f52b24a" testId="46098c4c-d876-3463-9eb4-443e386a8459" testName="SavingsAccountConstructorTest" computerName="ALPHERATZ" duration="00:00:00.0006493" startTime="2013-11-23T13:47:20.4728198+03:00" endTime="2013-11-23T13:47:20.4948312+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="606532cc-3311-440b-aff0-79b32f52b24a">
+    </UnitTestResult>
+    <UnitTestResult executionId="fa8bcf45-5e7b-4748-95a0-55ab425a042a" testId="ccb7f12c-c2c7-e8c3-73b6-38c60b00775d" testName="SavingsAccountConstructorTest1" computerName="ALPHERATZ" duration="00:00:00.0009943" startTime="2013-11-23T13:47:20.5088401+03:00" endTime="2013-11-23T13:47:20.5298540+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa8bcf45-5e7b-4748-95a0-55ab425a042a">
+    </UnitTestResult>
+    <UnitTestResult executionId="1c0548f7-a593-4bec-bfd8-1c0bddbfe332" testId="62ceffd0-193c-77fb-b637-af8857e2a0a1" testName="CheckBalanceTest" computerName="ALPHERATZ" duration="00:00:00.0011352" startTime="2013-11-23T13:47:20.5418624+03:00" endTime="2013-11-23T13:47:20.5868922+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c0548f7-a593-4bec-bfd8-1c0bddbfe332">
+      <Output>
+        <StdOut>Current balance: 1000
+ Penalty rate: 0.05</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="98c110bc-2704-4c8a-8621-9556a3ab21b3" testId="5caac51c-2826-4134-4d10-6fbbec5391ad" testName="TimedMaturityAccountConstructorTest" computerName="ALPHERATZ" duration="00:00:00.0005656" startTime="2013-11-23T13:47:20.5979023+03:00" endTime="2013-11-23T13:47:20.6159146+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="98c110bc-2704-4c8a-8621-9556a3ab21b3">
+    </UnitTestResult>
+    <UnitTestResult executionId="af14262c-19a2-44d0-819d-f23e6251d8a9" testId="14d93a57-b332-046c-753e-814e87dc8c06" testName="TimedMaturityAccountConstructorTest1" computerName="ALPHERATZ" duration="00:00:00.0004661" startTime="2013-11-23T13:47:20.6349237+03:00" endTime="2013-11-23T13:47:20.6519353+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="af14262c-19a2-44d0-819d-f23e6251d8a9">
+    </UnitTestResult>
+    <UnitTestResult executionId="76c48d85-8571-4fae-a3c5-5fb927d20de0" testId="66d9e69a-2c76-c2e0-57ff-7fef87532548" testName="CheckingAccountConstructorTest" computerName="ALPHERATZ" duration="00:00:00.0005119" startTime="2013-11-23T13:47:20.6639437+03:00" endTime="2013-11-23T13:47:20.7209811+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76c48d85-8571-4fae-a3c5-5fb927d20de0">
+    </UnitTestResult>
+    <UnitTestResult executionId="0963f7f6-6605-4e97-b80e-dca515c66cc4" testId="48be869a-44d0-2fa1-f225-d2277c0d90de" testName="CheckingAccountConstructorTest1" computerName="ALPHERATZ" duration="00:00:00.0006118" startTime="2013-11-23T13:47:20.7389930+03:00" endTime="2013-11-23T13:47:20.7590063+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0963f7f6-6605-4e97-b80e-dca515c66cc4">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a19848b-798b-4a2c-b439-6127b999d623" testId="3cbd2e1d-be43-0392-81c6-3479aa7cbd66" testName="ValidateTransactionNumberTest" computerName="ALPHERATZ" duration="00:00:00.0277221" startTime="2013-11-23T13:47:20.7710225+03:00" endTime="2013-11-23T13:47:20.8160480+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a19848b-798b-4a2c-b439-6127b999d623">
+    </UnitTestResult>
+    <UnitTestResult executionId="76ce2182-bf4a-4663-bd4a-63ddd90940a7" testId="320a0aa1-ab60-c701-d8e7-d98185ffa4aa" testName="OverdraftAccountConstructorTest" computerName="ALPHERATZ" duration="00:00:00.0006039" startTime="2013-11-23T13:47:20.8330558+03:00" endTime="2013-11-23T13:47:20.8510673+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76ce2182-bf4a-4663-bd4a-63ddd90940a7">
+    </UnitTestResult>
+    <UnitTestResult executionId="33ede660-b81c-4de8-bac2-26775c93f76c" testId="4a63e06b-2977-a606-f906-adef2f4dc4ba" testName="OverdraftAccountConstructorTest1" computerName="ALPHERATZ" duration="00:00:00.0004788" startTime="2013-11-23T13:47:20.8680790+03:00" endTime="2013-11-23T13:47:20.8850895+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="33ede660-b81c-4de8-bac2-26775c93f76c">
+    </UnitTestResult>
+    <UnitTestResult executionId="d8c989a7-7ff5-4b69-abc9-79fde952b47a" testId="35b435e4-93f9-bcc6-5bc2-01d55b68bc25" testName="ATMConstructorTest" computerName="ALPHERATZ" duration="00:00:00.0015248" startTime="2013-11-23T13:47:20.9000994+03:00" endTime="2013-11-23T13:47:20.9191124+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d8c989a7-7ff5-4b69-abc9-79fde952b47a">
+    </UnitTestResult>
+    <UnitTestResult executionId="9d8f4507-b6df-49bf-8375-c61a75180af1" testId="95932a76-d7d5-b9f3-72d3-0fa40f958412" testName="ATMConstructorTest1" computerName="ALPHERATZ" duration="00:00:00.0010638" startTime="2013-11-23T13:47:20.9391257+03:00" endTime="2013-11-23T13:47:20.9571380+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d8f4507-b6df-49bf-8375-c61a75180af1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

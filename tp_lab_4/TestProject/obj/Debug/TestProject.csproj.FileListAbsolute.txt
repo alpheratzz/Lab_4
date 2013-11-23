@@ -1,0 +1,18 @@
+C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\TestProject\bin\Debug\TestProject.dll
+C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\TestProject\bin\Debug\TestProject.pdb
+C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\TestProject\bin\Debug\tp_lab_4.exe
+C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\TestProject\bin\Debug\tp_lab_4.pdb
+C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\TestProject\obj\Debug\TestProject.dll
+C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\TestProject\obj\Debug\TestProject.pdb
+C:\Users\Томас\Documents\Visual Studio 2010\Projects\tp_lab_4\TestProject\bin\Debug\tp_lab_4_Accessor.exe
+C:\Users\Томас\Documents\Visual Studio 2010\Projects\tp_lab_4\TestProject\bin\Debug\tp_lab_4_Accessor.pdb
+c:\Users\Томас\lab_4\tp_lab_4\TestProject\bin\Debug\TestProject.dll
+c:\Users\Томас\lab_4\tp_lab_4\TestProject\bin\Debug\TestProject.pdb
+c:\Users\Томас\lab_4\tp_lab_4\TestProject\bin\Debug\tp_lab_4.exe
+c:\Users\Томас\lab_4\tp_lab_4\TestProject\bin\Debug\tp_lab_4.pdb
+c:\Users\Томас\lab_4\tp_lab_4\TestProject\bin\Debug\tp_lab_4_Accessor.exe
+c:\Users\Томас\lab_4\tp_lab_4\TestProject\bin\Debug\tp_lab_4_Accessor.pdb
+c:\Users\Томас\lab_4\tp_lab_4\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+c:\Users\Томас\lab_4\tp_lab_4\TestProject\obj\Debug\TestProject.dll
+c:\Users\Томас\lab_4\tp_lab_4\TestProject\obj\Debug\TestProject.pdb

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2abf2fd5-00ea-4853-bea8-1064ef25ca33" name="Alpheratz@ALPHERATZ 2013-11-23 13:21:05" runUser="ALPHERATZ\Alpheratz" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3bb9b01f-53d9-4978-a31b-c73d7a057c86">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Alpheratz_ALPHERATZ 2013-11-23 13_21_05">
+      <DeploymentItem filename="C:\Users\Томас\documents\visual studio 2010\Projects\tp_lab_4\tp_lab_4\bin\Debug\tp_lab_4.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-11-23T13:21:05.4775425+03:00" queuing="2013-11-23T13:21:05.5475846+03:00" start="2013-11-23T13:21:05.5635960+03:00" finish="2013-11-23T13:21:06.4381752+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ALPHERATZ" outcome="Warning" timestamp="2013-11-23T13:21:05.5475846+03:00">
+        <Text>Deployment is currently disabled. The deployment item 'tp_lab_4.exe' on test 'TestProject.CheckingAccountTest.ValidateTransactionNumberTest' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ValidateTransactionNumberTest" storage="c:\users\томас\documents\visual studio 2010\projects\tp_lab_4\testproject\bin\debug\testproject.dll" id="3cbd2e1d-be43-0392-81c6-3479aa7cbd66">
+      <DeploymentItems>
+        <DeploymentItem filename="tp_lab_4.exe" />
+      </DeploymentItems>
+      <Execution id="b46019fc-18f7-4347-933f-660274f8a1cc" />
+      <TestMethod codeBase="C:/Users/Томас/Documents/Visual Studio 2010/Projects/tp_lab_4/TestProject/bin/Debug/TestProject.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject.CheckingAccountTest, TestProject, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValidateTransactionNumberTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3cbd2e1d-be43-0392-81c6-3479aa7cbd66" executionId="b46019fc-18f7-4347-933f-660274f8a1cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b46019fc-18f7-4347-933f-660274f8a1cc" testId="3cbd2e1d-be43-0392-81c6-3479aa7cbd66" testName="ValidateTransactionNumberTest" computerName="ALPHERATZ" duration="00:00:00.3257168" startTime="2013-11-23T13:21:05.5716009+03:00" endTime="2013-11-23T13:21:06.4081588+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b46019fc-18f7-4347-933f-660274f8a1cc">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;5&gt;. </Message>
+          <StackTrace>   в TestProject.CheckingAccountTest.ValidateTransactionNumberTest() в C:\Users\Томас\Documents\Visual Studio 2010\Projects\tp_lab_4\TestProject\CheckingAccountTest.cs:строка 140
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
